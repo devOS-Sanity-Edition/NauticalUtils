@@ -1,2 +1,4 @@
-# Fabric Nautical Template
-Team Nautical's take on the Fabric Example Mod
+# NauticalUtils
+Team Nautical's library mod
+
+devin to do the rest of the read me :3

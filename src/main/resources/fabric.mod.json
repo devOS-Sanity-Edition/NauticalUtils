@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "template",
+	"id": "nautical_utils",
 	"version": "${version}",
-	"name": "Template mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "NauticalUtils",
+	"description": "Team Nautical's Library mod",
 	"authors": [
 		"devOS Nautical"
 	],
 	"contact": {
 		"homepage": "https://devos.one/",
-		"sources": "https://github.com/devOS-Sanity-Edition/fabric-nautical-template"
+		"sources": "https://github.com/devOS-Sanity-Edition/NauticalUtils"
 	},
 	"license": "MIT",
-	"icon": "assets/template/icon.png",
+	"icon": "assets/nautical_utils/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"one.devos.nautical.template.TemplateMod"
+			"one.devos.nautical.nautical_utils.NauticalUtils"
 		],
 		"client": [
-			"one.devos.nautical.template.client.TemplateModClient"
+			"one.devos.nautical.nautical_utils.client.NauticalUtilsClient"
 		]
 	},
 	"mixins": [
-		"template.mixins.json"
+      "nautical_utils.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
